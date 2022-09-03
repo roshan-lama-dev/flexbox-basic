@@ -1,0 +1,76 @@
+
+
+.border{
+    
+
+    text-align: center;
+    border-style: groove;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    
+}
+
+.navbar > div{
+    display: flex;
+    padding: 10px;
+}
+
+.login {
+    order: -1;
+}
+
+
+.parent{
+    padding: 10px;
+    background: blueviolet;
+    border-style: dotted;
+    border-color:red;
+    /* flex */
+    /* converts block element into the inline element */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column-reverse; */
+    height: 80vh;
+}
+
+.parent > div {
+    
+    background: grey;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+
+    display: flex;
+    /* horizontal alignment justify-content */
+    justify-content: center;
+    /* vertical alignment */
+    align-items: center;
+
+}
+
+.parent > div:nth-child(odd){
+    background: red;
+}
+
+.item-4{
+    align-self: flex-start;
+}
+
+.item-7 {
+    order: -1;
+}
+
